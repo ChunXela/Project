@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Times New Roman";
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+ 
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #702801;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  height:20px;
+}
+
+.title {
+  padding-left: 2%;
+  padding-top: 1%;
+  font-size: smaller;
+  text-align: start;
+  font-size: 17px;
+}
+
+.hovertest{
+  font-size: 4px;
+  padding: 0%;
+  width: 50px;
+  height: 10px;
+  margin-top: 10%;
+  background-color: white;
+  margin-right: 1%;
+  border-width: 0%;
+}
+
+.profile:hover + .hovertest{
+display:flex;
+flex-direction:column;  
+color: black;
+padding: 0%;
+  
+
+}
+
+.profile {
+  padding: 0%;
+  margin-right: 2%;
+  margin-top: 1.5%;
+  background-color: white;
+  border: solid;
+  border-color: black;
+  border-radius: 50%;
+  border-width: 1px;
+  height: 12.5px;
+  width: 12.5px;
+}
+
+.search {
+  background: black;
+  background-color: #dcdcdc;
+  border-color: black;
+  width: 25%;
+  height: 25%;
+  border: solid;
+  border-radius: 1px;
+  margin-top: 2%;
+  margin-right: 10%;
+  font-size: 4px;
+  align-items: center;
+}
+
+.search:focus {
+  outline: black;
+  background-color: white;
+}
+
+.bigboy {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.top10 {
+  height: 100px;
+  width: 20%;
+  margin-left: 2%;
+  margin-top: 6%;
+  background-color: #702801;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.following {
+  width: 35%;
+  margin-left: 10%;
+  margin-top: 6%;
+  background-color: #702801;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  font-size: 5px;
+}
+
+.suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.suggestion:nth-child(n) {
+  height: 25px;
+  width: 75px;
+  background-color: #702801;
+  border: solid;
+  border-color: white;
+  border-width: 5%;
+  margin-left: 1%;
+  margin-top: 5%;
+  font-size: 10px;
+}
+
+.maintitle {
+  display: flex;
+  flex-direction: row;
+}
+
+.titlesides {
+  justify-content: flex-end;
+  flex-direction: row;
+
+  height: 15px;
+  width: 25px;
+  background-color: #702801;
+  border: solid;
+  border-color: white;
+  border-width: 5%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.titlecenter {
+  justify-content: center;
+  flex-direction: row;
+
+  height: 15px;
+  width: 25px;
+  background-color: #702801;
+  border: solid;
+  border-color: white;
+  border-width: 5%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+
+}
+.column{
+  background-color: #702801;
+  border: solid;
+  border-color: white;
+  border-width: 5%;
+  
+}
+
+span{
+margin-left: 10px;
+}
+
+
+/*
+
+.suggestions suggestion:nth-child(3n) {
+    Vart tredje suggestion element som ligger inuti ett element med klassen suggestions
+}
+
+.suggestion:nth-child(odd) {
+    Alla udda suggestion element (i ordningen)
+}
+
+.suggestion.special {
+    Saker som hr både suggestion och special
+}
+*/

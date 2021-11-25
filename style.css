@@ -22,7 +22,7 @@ body {
   height: 10%;
   width: 20%;
   margin-left: 4vh;
-  margin-top: 12vh;
+  margin-top: 5%;
   background-color: #702801;
   border: solid;
   border-color: white;
@@ -103,8 +103,6 @@ margin-left: 10px;
 display: flex;
 justify-content: space-evenly;
 gap: 1vw;
-margin-left: 135px;
-margin-right: 135px;
 
 }
 

@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-size: 17px;
     font-family: "Times New Roman";
+    text-decoration: none;
   }
 
   header {
@@ -23,6 +24,7 @@
     font-size: smaller;
     text-align: start;
     font-size: max(4vw, 2vh);
+    text-decoration: none;
   }
   
   .sitename:visited { 
@@ -36,8 +38,7 @@
   }
   .sitename:hover {
     color: white;
-    font-size: 80px;
-    font-size: max(5vw, 3vh);
+    font-size: max(4.2vw, 2.2vh);
   }
   .sitename:active {
     font-size: 80px;

@@ -30,16 +30,17 @@
     padding: 0%;
     margin-top: 75px;
     background-color: WHITE;
+    width: 5vw;
     margin-right: 1%;
-    border: black;
-    border-width: s;
+    border: solid;
+    border-color: black;
+    border-width: 1vh;
    
   }
   
   .profile:hover .hovertest{
   display:flex;
-  flex-direction:column;  
-  color: white;
+  flex-direction:column;    
   padding: 0%;
   }
   

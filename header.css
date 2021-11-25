@@ -58,6 +58,10 @@
    
   }
   
+  .profile:hover{
+
+    background-color: #a6a6a6;
+  }
   .profile:hover .hovertest{
   display:flex;
   flex-direction:column;    
@@ -67,15 +71,16 @@
   .profile {
     margin-right: 60px;
     margin-top: 10px;
-    background-color: white;
     border: solid;
+    background-color: WHITE;
     border-color: black;
     border-radius: 50%;
     border-width: 1px;
     height:max(4vw, 2vh);
     width: max(4vw, 2vh);
   }
-  
+
+
   .search {
     background: black;
     background-color: #dcdcdc;

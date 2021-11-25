@@ -21,13 +21,12 @@ body {
 .top10 {
   height: 10%;
   width: 20%;
-  margin-left: 2%;
-  margin-top: 6%;
+  margin-left: 4vh;
+  margin-top: 12vh;
   background-color: #702801;
   border: solid;
   border-color: white;
-  border-width: 1px;
-  font-size: 49px;
+  border-width: 3px;
 }
 
 .following {
@@ -57,7 +56,7 @@ body {
   border-width: 5%;
   margin-left: 1%;
   margin-top: 5%;
-  font-size: 75px;
+  font-size: 3vw;
 }
 
 .maintitle {
@@ -79,12 +78,12 @@ nav {
   background-color: #702801;
   border: solid;
   border-color: white;
-  border-width: 5%;
+  border-width: 0.3vh;
 }
 
 .column a{
   
-  font-size: 50px;
+  font-size: 5vh;
 
 
 }
@@ -98,9 +97,66 @@ display: flex;
 justify-content: space-evenly;
 gap: 10px;
 margin-left: 135px;
-
-
 }
+.beemovie{
+  font-size: 1vw;
+  padding: 1vw;
+}
+
+.one{
+  padding: 1vw;
+  font-size: 1.5vw;
+  padding-left: 4vw;
+}
+.two{
+  padding: 1vw;
+  font-size: 1.5vw;
+  padding-left: 4vw;
+}
+
+.three{
+  padding: 1vw;
+  font-size: 1.5vw;
+  padding-left: 4vw;
+}
+.fore{
+  padding: 1vh;
+  font-size: 1.5vw;
+  padding-left: 4vw;
+}
+.five{
+  padding: 1vw;
+  font-size: 1.5vw;
+  padding-left: 4vw;
+}
+.six{
+  padding: 1vw;
+  font-size: 1.5vw;
+  padding-left: 4vw;
+}
+.seven{
+  padding: 1vw;
+  font-size: 1.5vw;
+  padding-left: 4vw;
+}
+.eight{
+  padding: 1vw;
+  font-size: 1.5vw;
+  padding-left: 4vw;
+}
+.nine{
+  padding: 1vw;
+  font-size: 1.5vw;
+  padding-left: 4vw;
+}
+.ten{
+  padding: 1vw;
+  font-size: 1.5vw;
+  padding-left: 3.5vw;
+}
+
+
+
 
 
 

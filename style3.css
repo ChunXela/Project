@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: "Times New Roman";
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+  }
+
+.registerbox{
+display: flex;
+flex-direction: column;
+width: max(16vh,15vw);
+background-color: #702801;
+color: white;
+border: solid;
+border-color: white;
+border-width: max(0.1vh,0.2vw);
+
+margin-top: max(1vw, 2vh);
+
+margin-left: max(20vw, 21vh);
+
+  }
+
+.title{
+background-color: #702801;
+color: white;
+border: solid;
+border-width: max(0.3vw, 0.4vh);
+border-color: white;
+margin-top: max(12vw,14vh);
+margin-left: max(20.5vw, 21.5vh);
+width: max(12vw,13vh);
+}
+
+.title p{
+
+    font-size: max(2vw,1vh);   
+}
+
+.registerbox input{
+
+    margin: max(0.9vw,1vh);
+    width: max(13vw,14vh);
+
+}
+
+.registerbox button{
+
+    margin-left: max(4vw,5vh);
+    font-size: max;
+
+}

@@ -29,6 +29,13 @@ body {
   border-width: 3px;
 }
 
+.top10 p {
+  padding: 1vw;
+  font-size:  max(1.5vw,3vh);
+  padding-left: 4vw;
+
+}
+
 .following {
   width: 35%;
   margin-left: 10%;
@@ -56,7 +63,7 @@ body {
   border-width: 5%;
   margin-left: 1%;
   margin-top: 5%;
-  font-size: 3vw;
+  font-size: max(3vw, 2vh);
 }
 
 .maintitle {
@@ -78,12 +85,12 @@ nav {
   background-color: #702801;
   border: solid;
   border-color: white;
-  border-width: 0.3vh;
+  border-width: max(0.1vw,0.3vh);
 }
 
 .column a{
   
-  font-size: 5vh;
+  font-size: max(3vw,2vh);
 
 
 }
@@ -95,65 +102,23 @@ margin-left: 10px;
 .center-title{
 display: flex;
 justify-content: space-evenly;
-gap: 10px;
+gap: 1vw;
 margin-left: 135px;
+margin-right: 135px;
+
 }
+
+.center-title a{
+  font-size: max(3vw,2vh);;
+padding: 1vw;
+  
+  }
+
 .beemovie{
-  font-size: 1vw;
+  font-size: max(1.5vw,3vh);
   padding: 1vw;
 }
 
-.one{
-  padding: 1vw;
-  font-size: 1.5vw;
-  padding-left: 4vw;
-}
-.two{
-  padding: 1vw;
-  font-size: 1.5vw;
-  padding-left: 4vw;
-}
-
-.three{
-  padding: 1vw;
-  font-size: 1.5vw;
-  padding-left: 4vw;
-}
-.fore{
-  padding: 1vh;
-  font-size: 1.5vw;
-  padding-left: 4vw;
-}
-.five{
-  padding: 1vw;
-  font-size: 1.5vw;
-  padding-left: 4vw;
-}
-.six{
-  padding: 1vw;
-  font-size: 1.5vw;
-  padding-left: 4vw;
-}
-.seven{
-  padding: 1vw;
-  font-size: 1.5vw;
-  padding-left: 4vw;
-}
-.eight{
-  padding: 1vw;
-  font-size: 1.5vw;
-  padding-left: 4vw;
-}
-.nine{
-  padding: 1vw;
-  font-size: 1.5vw;
-  padding-left: 4vw;
-}
-.ten{
-  padding: 1vw;
-  font-size: 1.5vw;
-  padding-left: 3.5vw;
-}
 
 
 

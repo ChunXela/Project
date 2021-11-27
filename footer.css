@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: "Times New Roman";
+    text-decoration: none;
+    color: white;
+  }
+
+footer{
+margin-top: max(1vw,2vh);
+background-color: #702801;
+color: white;
+border: solid;
+border-color: white;
+border-width: max(0.1vw,0.01vh);
+height: max-content;
+color: white;
+
+  }
+
+.footerbox{
+  display: flex;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.infotitle{
+  font-size: 2vw;
+}
+
+.socialmediatitle{
+font-size: 2vw;
+
+}
+.contacttitle{
+font-size: 2vw;
+
+}
+
+.footertitle:visited{
+  color: white;
+}
+
+.footertitle:active{
+  color: white;
+}
+
+.footertitle:link{
+  color: white;
+}
+
+
+

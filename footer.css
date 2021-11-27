@@ -5,7 +5,6 @@
     font-size: 17px;
     font-family: "Times New Roman";
     text-decoration: none;
-    color: white;
   }
 
 footer{
@@ -17,6 +16,9 @@ border-color: white;
 border-width: max(0.1vw,0.01vh);
 height: max-content;
 color: white;
+display: flex;
+flex-direction: column;
+
 
   }
 
@@ -30,28 +32,23 @@ justify-content: space-around;
 
 .infotitle{
   font-size: 2vw;
+  text-decoration: white;
+  color: white;
 }
 
 .socialmediatitle{
 font-size: 2vw;
+text-decoration: white;
+color: white;
 
 }
 .contacttitle{
 font-size: 2vw;
+text-decoration: white;
+color: white;
 
 }
 
-.footertitle:visited{
-  color: white;
-}
-
-.footertitle:active{
-  color: white;
-}
-
-.footertitle:link{
-  color: white;
-}
 
 
 

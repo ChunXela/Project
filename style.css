@@ -83,7 +83,7 @@ nav {
   border-width: max(0.1vw, 0.3vh);
 }
 
-.column a {
+.column p {
   font-size: max(3vw, 2vh);
 }
 

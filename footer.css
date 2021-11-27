@@ -1,54 +1,46 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 17px;
-    font-family: "Times New Roman";
-    text-decoration: none;
-  }
-
-footer{
-margin-top: max(1vw,2vh);
-background-color: #702801;
-color: white;
-border: solid;
-border-color: white;
-border-width: max(0.1vw,0.01vh);
-height: max-content;
-color: white;
-display: flex;
-flex-direction: column;
-
-
-  }
-
-.footerbox{
-  display: flex;
-color: white;
-display: flex;
-flex-direction: row;
-justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-family: "Times New Roman";
+  text-decoration: none;
 }
 
-.infotitle{
+footer {
+  margin-top: max(1vw, 2vh);
+  background-color: #702801;
+  color: white;
+  border: solid;
+  border-color: white;
+  border-width: max(0.1vw, 0.01vh);
+  height: max-content;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerbox {
+  display: flex;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.infotitle {
   font-size: 2vw;
   text-decoration: white;
   color: white;
 }
 
-.socialmediatitle{
-font-size: 2vw;
-text-decoration: white;
-color: white;
-
+.socialmediatitle {
+  font-size: 2vw;
+  text-decoration: white;
+  color: white;
 }
-.contacttitle{
-font-size: 2vw;
-text-decoration: white;
-color: white;
-
+.contacttitle {
+  font-size: 2vw;
+  text-decoration: white;
+  color: white;
 }
-
-
-
-

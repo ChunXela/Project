@@ -42,13 +42,11 @@ label {
   background-color: white;
   color: black;
   display: flex;
-justify-content: end; 
-margin-left: 35vw; 
+  justify-content: end;
+  margin-left: 35vw;
 }
 
-.userlogin{
-
-display: flex;
-flex-direction: column;
-
+.userlogin {
+  display: flex;
+  flex-direction: column;
 }

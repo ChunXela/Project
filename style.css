@@ -5,7 +5,7 @@
   font-size: 17px;
   font-family: "Times New Roman";
 }
-  
+
 body {
   background-color: black;
   color: white;
@@ -15,6 +15,7 @@ body {
   display: flex;
   width: 100%;
   flex-direction: row;
+  color: white;
 }
 
 .top10 {
@@ -38,9 +39,8 @@ ol li{
 
 .top10 p {
   padding: 1vw;
-  font-size:  max(1.5vw,3vh);
+  font-size: max(1.5vw, 3vh);
   padding-left: 4vw;
-
 }
 
 .following {
@@ -79,59 +79,48 @@ ol li{
   flex-direction: row;
 }
 
-
 nav {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   margin-top: 5%;
-
 }
 
-
-.column{
+.column {
   background-color: #702801;
   border: solid;
   border-color: white;
+<<<<<<< HEAD
   border-width: max(0.1vw,0.3vh);
   padding: max(0.5vw,1vh);
+=======
+  border-width: max(0.1vw, 0.3vh);
+>>>>>>> b9bf0de19265ba7543b746e435f8d31fd804d1ec
 }
 
-.column a{
-  
-  font-size: max(3vw,2vh);
-
-
+.column p {
+  font-size: max(3vw, 2vh);
 }
 
-span{
-margin-left: 10px;
+span {
+  margin-left: 10px;
 }
 
-.center-title{
-display: flex;
-justify-content: space-evenly;
-gap: 1vw;
-
+.center-title {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1vw;
 }
 
-.center-title a{
-  font-size: max(3vw,2vh);;
-padding: 1vw;
-  
-  }
-
-.beemovie{
-  font-size: max(1.5vw,3vh);
+.center-title a {
+  font-size: max(3vw, 2vh);
   padding: 1vw;
 }
 
-
-
-
-
-
-
+.beemovie {
+  font-size: max(1vw, 2vh);
+  padding: 1vw;
+}
 
 /*
 .suggestions suggestion:nth-child(3n) {

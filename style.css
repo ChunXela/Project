@@ -90,12 +90,8 @@ nav {
   background-color: #702801;
   border: solid;
   border-color: white;
-<<<<<<< HEAD
   border-width: max(0.1vw,0.3vh);
   padding: max(0.5vw,1vh);
-=======
-  border-width: max(0.1vw, 0.3vh);
->>>>>>> b9bf0de19265ba7543b746e435f8d31fd804d1ec
 }
 
 .column p {

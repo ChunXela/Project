@@ -32,6 +32,7 @@ ol li{
 
   font-size:  max(1.5vw,3vh);
   margin-left: 2vw;
+  margin-left: max(3vw,6vh);
   padding: max(0.5vw,1vh);
 
 

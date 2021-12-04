@@ -10,7 +10,6 @@ body {
   background-color: black;
   color: white;
 }
- 
 
 .bigboy {
   display: flex;
@@ -26,6 +25,15 @@ body {
   border: solid;
   border-color: white;
   border-width: 3px;
+}
+
+ol li{
+
+  font-size:  max(1.5vw,3vh);
+  margin-left: 2vw;
+  padding: max(0.5vw,1vh);
+
+
 }
 
 .top10 p {
@@ -63,6 +71,7 @@ body {
   margin-left: 1%;
   margin-top: 5%;
   font-size: max(3vw, 2vh);
+  padding: max(0.5vw,1vh);
 }
 
 .maintitle {
@@ -85,6 +94,7 @@ nav {
   border: solid;
   border-color: white;
   border-width: max(0.1vw,0.3vh);
+  padding: max(0.5vw,1vh);
 }
 
 .column a{
